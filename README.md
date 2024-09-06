@@ -48,6 +48,20 @@ The dataset used in this project is the Amazon Kindle Books Dataset (2023). The 
       ```
       pip install -r requirements.txt
       ```
+      ```
+      # Install Kaggle for dataset download
+      pip install kaggle
+      
+      # Install Pandas for data manipulation
+      pip install pandas
+      
+      # Install Snowflake connector for data loading and queries
+      pip install snowflake-connector-python
+      
+      # Install dotenv to handle environment variables
+      pip install python-dotenv
+      ```
+
 
 ### How to Run Analysis
   To perform the analysis, open the ```Analysis_of_Amazon_Kindle_Books.ipynb``` Jupyter notebook. Ensure you have the necessary Snowflake access configured in the notebook to run the SQL queries and perform the analysis.
