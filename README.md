@@ -19,6 +19,36 @@ The dataset used in this project is the Amazon Kindle Books Dataset (2023). The 
 - **Analysis of Amazon Kindle Books Sales and Customer Insights (2023).ipynb/:** Jupyter Notebook file with analysis and insights.
 - **README.md:** Markdown file with a description of the project, setup instructions, and other relevant information.
 
+### Setup
+1. **Clone the repository**
+   ``` bash
+   git clone https://github.com/yourusername/kindle-books-analysis.git
+   cd kindle-books-analysis
+   ```
+2. **Set Up Environment Variables**
+   Before running the analysis, make sure to configure your environment variables to securely manage sensitive information such as Snowflake credentials.
+   1. Create a ```.env``` file in the root of your project or export the following variables in your environment:
+   - ```SNOWFLAKE_USER```: Your Snowflake username
+   - ```SNOWFLAKE_PASSWORD```: Your Snowflake password
+   - ```SNOWFLAKE_ACCOUNT```: Your Snowflake account URL
+   - ```SNOWFLAKE_WAREHOUSE```: Snowflake warehouse to use
+   - ```SNOWFLAKE_DATABASE```: Snowflake database where your dataset is stored
+   - ```SNOWFLAKE_SCHEMA```: The schema where your data is located
+
+  2. Example ```.env``` file format:
+     ```
+     SNOWFLAKE_USER=your_username
+     SNOWFLAKE_PASSWORD=your_password
+     SNOWFLAKE_ACCOUNT=your_account_url
+     SNOWFLAKE_WAREHOUSE=your_warehouse
+     SNOWFLAKE_DATABASE=your_database
+     SNOWFLAKE_SCHEMA=your_schema
+     ```
+  3. Install Dependencies:
+      ```
+      pip install -r requirements.txt
+      ```
+
 ### How to Run Analysis
   To perform the analysis, open the ```Analysis_of_Amazon_Kindle_Books.ipynb``` Jupyter notebook. Ensure you have the necessary Snowflake access configured in the notebook to run the SQL queries and perform the analysis.
 
