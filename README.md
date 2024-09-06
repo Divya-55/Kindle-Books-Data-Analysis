@@ -14,11 +14,12 @@ The dataset used in this project is the Amazon Kindle Books Dataset (2023). The 
 - **Excel:** Used to create data visualizations, including charts and graphs to show key trends.
 
 ### Repository Structure
-- **SQL_queries.sql/:** Has all the sql queries for analysis.
 - **query-results-csv/:** Folder containing CSV files resulting from SQL queries.
 - **visualization-graphs/:**  Folder with all sql queries data visualization graphs.
-- **Analysis of Amazon Kindle Books Sales and Customer Insights (2023).ipynb/:** Jupyter Notebook file with analysis and insights.
+- **Analysis of Amazon Kindle Books Sales and Customer Insights (2023).ipynb:** Jupyter Notebook file with analysis and insights.
 - **README.md:** Markdown file with a description of the project, setup instructions, and other relevant information.
+- **SQL_queries.sql:** Has all the sql queries for analysis.
+- **requirements.txt:** Install required libraries
 
 ### Setup
 1. **Clone the repository**
