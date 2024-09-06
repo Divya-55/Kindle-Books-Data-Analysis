@@ -1,0 +1,4 @@
+kaggle
+pandas
+snowflake-connector-python
+python-dotenv
